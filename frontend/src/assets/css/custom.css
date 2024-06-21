@@ -1,0 +1,512 @@
+.topFixedBanner{
+    background-image: url('../images/topbanner.png');
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBannerOverlay{
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.topContent{
+    margin-top: 10em;
+}
+
+.topTitle{
+ font-weight: 700;
+ color:#fff;
+ font-size: 48px;
+}
+
+.topSubTitle{
+ font-weight: 600;
+ color:#fff;
+ font-size: 22px;
+}
+
+.ecommerceIcon{
+    width:80px;
+    height: 80px;
+}
+.designIcon{
+    width:80px;
+    height: 80px;
+}
+.webIcon{
+    width:80px;
+    height: 80px;
+}
+
+/* service section design */
+
+.serviceCard{
+    margin:5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 8px 0 rgb(4,55,105,0.2);
+}
+.serviceCard:hover{
+    margin:5px 5px 5px 5px;
+    height: 22rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 16px 0 rgb(4,55,105,0.2);
+}
+
+.serviceName{
+    color:#051b35;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.serviceDes{
+    color:#051b35;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.serviceMainTitle{
+    color:#051b35;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.bottom{
+    background:#051b35 none repeat scroll 0 0 ;
+    height: 3px;
+    width: 85px;
+    margin:-1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+/* navigation style */
+.navTitle{
+    color:#fff !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navTitleScroll{
+    color:#051b35 !important;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00, 00, 00, 0.1) !important;
+}
+.navBackgroundScroll{
+   
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: orange;
+}
+
+/* summery section design */
+.summeryBanner{
+    background-image: url('../images/summery.png');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summeryBannerOverlay{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(27, 31, 92, 0.7);
+}
+
+.countNumber{
+    color:#fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.countTitle{
+    color:#e9c110;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.countSection{
+    margin-top: 20% !important;
+}
+.cardTitle{
+    color:#000000;
+    font-weight: 700;
+    font-size: 19px;
+}
+.cardSubTitle{
+    color:#000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cardWork{
+    margin-top: 30%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.iconBullent{
+    color:orange;
+    font-size: 20px;
+}
+
+.iconProject{
+    color:orange;
+    font-size: 40px;
+}
+
+/* Project section design */
+.projectCard{
+    background: #fff;
+    width: 22em;
+    border-radius: 0.6em;
+    margin:1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+    transition: all ease 200ms;
+}
+
+.projectCard:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
+}
+
+/* course section design */
+.courseImg{
+    width: 100%;
+}
+
+/* Video section design */
+.videoCard{
+    box-shadow: 0 13px 10px -5px;
+    padding: 8rem 3rem 8rem 3rem;
+    background-color: #051b35;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.videoText{
+    margin-top: 2%;
+}
+
+/* client review section design start */
+.sliderBack{
+    background-color: #051b35;
+    min-height: 400px;
+}
+
+.reviewMainTitle{
+    color:#fff;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.reviewbottom{
+    background:#fff none repeat scroll 0 0 ;
+    height: 3px;
+    width: 85px;
+    margin:-1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+.circleImg{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.clientName{
+    color:#fff;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.clientDes{
+    color:#fff;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.aboutImg{
+    width: 450px;
+    height: 450px;
+    background-color: #051b35;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  
+}
+
+.aboutimages{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 210px; 
+}
+
+.aboutmebody{
+    width: 100%;
+    height: 100%;
+    padding-left: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.aboutname{
+    color:#051b35;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* footer section design */
+
+.footerSection{
+    margin-top: 5rem;
+    box-shadow: 0 0 8px 0;
+    background-color: #051b35;
+}
+.footerName{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-container{
+    margin-top: 30px;
+}
+
+a.social{
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover{
+    transform:translateY(-2px) ;
+}
+a.facebook{
+    color: #fff;
+}
+a.youtube{
+    color: #fff;
+}
+a.twitter{
+    color: #fff;
+}
+
+.addressDesc{
+    color:#fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* pagetop style */
+.topFixedPage{
+    background-image: url('../images/page.png');
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay{
+    position: absolute;
+    min-height: 250px;
+    width: 100%;
+    background: rgba(19, 1, 102, 0.7);
+}
+
+.topContentPage{
+    margin-top: 10em;
+}
+
+.topPageTitle{
+ font-weight: 700;
+ color:#fff;
+ font-size: 48px;
+}
+
+/* Home page welcome section design */
+.intro-area-top{
+    margin-top: -70px;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title{
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.section-title .sub-title{
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.section-title .sub-title.double-line:before{
+    content: "";
+    position: absolute;
+    left: -50px;
+    top:10px;
+    height: 3px;
+    width: 40px;
+    background: #051b35;
+}
+.section-title .sub-title.double-line:after{
+    content: "";
+    position: absolute;
+    right: -50px;
+    top:10px;
+    height: 3px;
+    width: 40px;
+    background: #051b35;
+}
+
+.intro-area-inner{
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+    background: #fff;
+    padding: 50px 0 0;
+    border-radius: 8px;
+}
+
+.mainTitle{
+    font-weight: 700;
+    color:#051b35;
+    font-size: 40px;
+}
+
+/* ==============project details page design=========== */
+
+.about-thumb-wrap.after-shape{
+    margin-right: 30px;
+}
+
+.about-thumb-wrap.after-shape:after {
+    content: "";
+    position: absolute;
+    /* right: 30px; */
+    width: 50px;
+    height: 60%;
+    top: 90%;
+    border-radius: 10px;
+    background: #fdc800;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.projectDetailsText{
+    font-weight: 700;
+    color:#051b35;
+    font-size: 40px;
+}
+
+.courseDetailsText{
+    font-weight: 700;
+    color:#051b35;
+    font-size: 34px;
+}
+
+.courseDetailsImg{
+    width:100%;
+}
+
+.widget_feature {
+    border: 1px solid #CBD6E2;
+}
+
+.widget_feature ul{
+    padding: 0 25px 20px;
+}
+
+.widget_feature ul li{
+    color:#051b35;
+    font-size: 16px;
+    margin-bottom: 9px;
+    list-style: none;
+}
+
+.widget_feature ul li span{
+    font-weight: 700;
+    color:#051b35;
+    margin-right: 5px;
+}
+
+.widget_feature .price-wrap {
+    background-color: #F0F4F9;
+    padding: 34px 23px 40px;
+}
+
+.widget-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+}
+
+
+/* Wentwrong component design */
+
+.errorIcon{
+    width:140px;
+    height: 140px;
+
+}
+
+/* Responsive code */
+
+@media only screen and (max-width: 600px) {
+    .recent-project{
+        margin-top: 330px;
+    }
+    .recent-project .projectCard{
+     margin-left: 80px !important;
+    }
+
+  }
+
+
+
+
+
+
